@@ -31,31 +31,11 @@ Location: Hefei, Anhui Province, China
 
 - Designed prompts for large models and developed front-end features.  
 
-### Organizer and Leader of Academic and Extracurricular Activities  **Secretary of Party Branch in Colleges** (Oct 2023 – Present)  
-Location: Hefei, Anhui Province, China  
-
-- Organized and led activities to enhance academic and extracurricular engagement.  
 
 ### Algorithm Research Intern  **Zhipu AI** (Sep 2024 – Present)  
 Location: Beijing, China  
 
 - Worked on downstream tasks related to t2v large model algorithms and data processing.  
 
----
-
-
-## Notable Projects & Papers
-
-### Undergraduate Projects: Automated Exam Scheduling Web Project**  
-  - Led as a full-stack developer, contributing over 5,000 lines of code.  
-  - Utilized VUE framework for web design and implemented server communication using Axios.  
-  - Responsible for database design.  
-
-### Research Paper: Manipulated Data Detection
-- Utilized MLLM and LLM to generate auxiliary labels to enhance base model performance.  
-- Designed a novel attention mechanism tailored for manipulated data tasks.  
-- Introduced large models while avoiding their use during inference to reduce complexity.  
-
----
 
 This resume was generated in Markdown for use on [GitHub Pages](https://pages.github.com/).
