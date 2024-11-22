@@ -1,7 +1,6 @@
 # Zhenxing Zhang
 
 📧 [Crilias.zzx@gmail.com](mailto:Crilias.zzx@gmail.com)  
-📞 Wechat: QuantumScope
 🐙 [GitHub](https://github.com/CriliasMiller)
 
 ---
