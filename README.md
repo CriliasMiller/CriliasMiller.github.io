@@ -1,9 +1,8 @@
 # Zhenxing Zhang
 
 📧 [Crilias.zzx@gmail.com](mailto:Crilias.zzx@gmail.com)  
-📞 +86 15715690563  
 🐙 [GitHub](https://github.com/CriliasMiller)
-
+📞 [Wechat] QuantumScope
 ---
 
 ## Career Summary
@@ -21,13 +20,6 @@ Zhenxing Zhang is a master’s student and a member of the Communist Party of Ch
 
 ---
 
-## Achievements
-
-- Outstanding Graduate of Hefei University of Technology  
-- Delegate of the 9th Party Congress of Hefei University of Technology  
-- One CCF A-level paper under review, one paper published in a Chinese core journal  
-
----
 
 ## Experience
 
@@ -57,20 +49,6 @@ Location: Beijing, China
 
 ---
 
-## Awards
-
-### University Awards
-- University-Level Scholarship  
-- National Encouragement Scholarship  
-- Graduate Academic Scholarship  
-- Merit Student, Pacemaker to Merit Student  
-
-### Social Awards
-- Outstanding Mentor Award from Beautiful Mind Book House  
-- Third Prize in the Spark Training Camp  
-- 250 Points in CCF Certified Software Professional (CSP)  
-
----
 
 ## Notable Projects & Papers
 
