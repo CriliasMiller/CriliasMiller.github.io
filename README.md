@@ -13,10 +13,8 @@ Zhenxing Zhang is a master’s student and a member of the Communist Party of Ch
 
 ## Education
 
-- **Hefei University of Technology** (Sep 2018 – Jul 2022)  
-  **Software Engineering** – School of Software  
-- **Hefei University of Technology** (Sep 2023 – Jul 2028)  
-  **Computer Science and Technology** – School of Computer and Information  
+- **Hefei University of Technology** (Sep 2018 – Jul 2022)  **Software Engineering** – School of Software  
+- **Hefei University of Technology** (Sep 2023 – Jul 2028)  **Computer Science and Technology** – School of Computer and Information  
 
 ---
 
