@@ -21,26 +21,22 @@ Zhenxing Zhang is a master’s student and a member of the Communist Party of Ch
 
 ## Experience
 
-### Volunteer Teacher of English, Music, and IT  
-**Graduate Volunteer Teaching Group** (Aug 2022 – Jul 2023)  
+### Volunteer Teacher of English, Music, and IT  **Graduate Volunteer Teaching Group** (Aug 2022 – Jul 2023)  
 Location: Danzhai, Guizhou Province, China  
 
 - Taught English, music, and IT to underprivileged students.  
 
-### Large Model Prompt Designer, Front-End Engineer  
-**iFlytek Spark Exploration Camp** (Aug 2023 – Nov 2023)  
+### Large Model Prompt Designer, Front-End Engineer  **iFlytek Spark Exploration Camp** (Aug 2023 – Nov 2023)  
 Location: Hefei, Anhui Province, China  
 
 - Designed prompts for large models and developed front-end features.  
 
-### Organizer and Leader of Academic and Extracurricular Activities  
-**Secretary of Party Branch in Colleges** (Oct 2023 – Present)  
+### Organizer and Leader of Academic and Extracurricular Activities  **Secretary of Party Branch in Colleges** (Oct 2023 – Present)  
 Location: Hefei, Anhui Province, China  
 
 - Organized and led activities to enhance academic and extracurricular engagement.  
 
-### Algorithm Research Intern  
-**Zhipu AI** (Sep 2024 – Present)  
+### Algorithm Research Intern  **Zhipu AI** (Sep 2024 – Present)  
 Location: Beijing, China  
 
 - Worked on downstream tasks related to t2v large model algorithms and data processing.  
@@ -50,8 +46,7 @@ Location: Beijing, China
 
 ## Notable Projects & Papers
 
-### Undergraduate Projects
-- **Automated Exam Scheduling Web Project**  
+### Undergraduate Projects: Automated Exam Scheduling Web Project**  
   - Led as a full-stack developer, contributing over 5,000 lines of code.  
   - Utilized VUE framework for web design and implemented server communication using Axios.  
   - Responsible for database design.  
