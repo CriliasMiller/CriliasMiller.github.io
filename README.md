@@ -7,7 +7,7 @@
 
 ## Career Summary
 
-Zhenxing Zhang is a master’s student and a member of the Communist Party of China, serving as Party Branch Secretary and holding other student leadership roles. He is currently an algorithm research intern at Zhipu AI, with research interests in multimodal large models and cross-modal learning between images and text.
+Zhenxing Zhang is a master’s student. He is currently an algorithm research intern at Zhipu AI, with research interests in multimodal large models and cross-modal learning between images and text.
 
 ---
 
