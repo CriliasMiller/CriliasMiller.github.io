@@ -3,6 +3,7 @@
 📧 [Crilias.zzx@gmail.com](mailto:Crilias.zzx@gmail.com)  
 🐙 [GitHub](https://github.com/CriliasMiller)
 📞 [Wechat] QuantumScope
+[Download PDF](https://CriliasMiller.github.io/CriliasMiller.github.io/files/cv_zzx.pdf)
 ---
 
 ## Career Summary
