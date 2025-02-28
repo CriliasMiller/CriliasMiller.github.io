@@ -1,8 +1,8 @@
 # Zhenxing Zhang
 
 📧 [Crilias.zzx@gmail.com](mailto:Crilias.zzx@gmail.com)  
-🐙 [GitHub](https://github.com/CriliasMiller)
-📃 [Download PDF](files/cv_zzx.pdf)
+🐙 [GitHub](https://github.com/CriliasMiller)  
+📃 [Read CV](files/cv_zzx.pdf)
 ---
 
 ## Career Summary
