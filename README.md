@@ -3,6 +3,7 @@
 📧 [Crilias.zzx@gmail.com](mailto:Crilias.zzx@gmail.com)  
 🐙 [GitHub](https://github.com/CriliasMiller)  
 📃 [Read CV](files/cv_zzx.pdf)
+🎓 [Scholoar](https://scholar.google.com/citations?user=6Uqe9ewAAAAJ&hl=zh-CN)
 ---
 
 ## Career Summary
