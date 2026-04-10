@@ -455,6 +455,29 @@
             }
         }
 
+        /* GitHub Star Badge */
+        .github-star-badge {
+            color: #667eea;
+            text-decoration: none;
+            font-size: 0.9rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            padding: 0.3rem 0.8rem;
+            background: white;
+            border-radius: 20px;
+            transition: all 0.3s;
+        }
+
+        .github-star-badge:hover {
+            background: #667eea;
+            color: white;
+        }
+
+        .star-count {
+            font-weight: bold;
+        }
+
         /* Language specific styles */
         [data-lang="en"] .zh-only {
             display: none;
@@ -631,6 +654,30 @@
                     <a href="https://github.com/CriliasMiller/ASAP" target="_blank">
                         <i class="fab fa-github"></i> Code
                     </a>
+                    <a href="https://github.com/CriliasMiller/ASAP" target="_blank" class="github-star-badge">
+                        <i class="fas fa-star"></i> <span class="star-count">-</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="publication">
+                <h4>图文跨模态检索研究综述 (A Survey on Image-Text Cross-Modal Retrieval)</h4>
+                <div class="authors">
+                    <span class="zh-only"><strong>张振兴</strong>, <strong>王亚雄</strong></span>
+                    <span class="en-only"><strong>Zhenxing Zhang</strong>, <strong>Yaxiong Wang</strong></span>
+                </div>
+                <div class="venue">
+                    <span class="zh-only">北京交通大学学报 (Journal of Beijing Jiaotong University)</span>
+                    <span class="en-only">Journal of Beijing Jiaotong University</span>
+                </div>
+                <div class="abstract">
+                    <span class="zh-only">本文系统综述了图文跨模态检索领域的研究进展，涵盖了深度学习方法、注意力机制、Transformer架构等关键技术。对比分析了不同方法在常用数据集上的性能，并讨论了未来的研究方向和挑战。</span>
+                    <span class="en-only">This paper provides a comprehensive survey of image-text cross-modal retrieval, covering deep learning methods, attention mechanisms, and Transformer architectures. We comparatively analyze different methods on common datasets and discuss future research directions and challenges.</span>
+                </div>
+                <div class="links">
+                    <a href="https://jdxb.bjtu.edu.cn/CN/10.11860/j.issn.1673-0291.20230126" target="_blank">
+                        <i class="fas fa-file-pdf"></i> Paper
+                    </a>
                 </div>
             </div>
 
@@ -651,6 +698,9 @@
                     </a>
                     <a href="https://github.com/zai-org/Kaleido" target="_blank">
                         <i class="fab fa-github"></i> Code
+                    </a>
+                    <a href="https://github.com/zai-org/Kaleido" target="_blank" class="github-star-badge">
+                        <i class="fas fa-star"></i> <span class="star-count">-</span>
                     </a>
                     <a href="https://criliasmiller.github.io/Kaleido_Project/" target="_blank">
                         <i class="fas fa-globe"></i> Demo
@@ -686,6 +736,9 @@
                         <span class="zh-only">查看项目</span>
                         <span class="en-only">View Project</span>
                     </a>
+                    <a href="https://github.com/zai-org/GLM-Image" target="_blank" class="github-star-badge" style="display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.5rem; padding: 0.3rem 0.8rem; background: white; border-radius: 20px; color: #667eea; text-decoration: none; font-size: 0.9rem; transition: all 0.3s;">
+                        <i class="fas fa-star"></i> <span class="star-count">-</span>
+                    </a>
                 </div>
                 <div class="project-card">
                     <h4>RealVideo</h4>
@@ -706,6 +759,9 @@
                         <i class="fab fa-github"></i>
                         <span class="zh-only">查看项目</span>
                         <span class="en-only">View Project</span>
+                    </a>
+                    <a href="https://github.com/zai-org/RealVideo" target="_blank" class="github-star-badge" style="display: inline-flex; align-items: center; gap: 0.3rem; margin-top: 0.5rem; padding: 0.3rem 0.8rem; background: white; border-radius: 20px; color: #667eea; text-decoration: none; font-size: 0.9rem; transition: all 0.3s;">
+                        <i class="fas fa-star"></i> <span class="star-count">-</span>
                     </a>
                 </div>
             </div>
@@ -894,6 +950,46 @@
                 navLinks.classList.remove('active');
             }
         });
+
+        // GitHub Star Count Fetcher
+        async function fetchGitHubStars() {
+            const repositories = [
+                'CriliasMiller/ASAP',
+                'zai-org/Kaleido',
+                'zai-org/GLM-Image',
+                'zai-org/RealVideo'
+            ];
+
+            for (const repo of repositories) {
+                try {
+                    const response = await fetch(`https://api.github.com/repos/${repo}`, {
+                        headers: {
+                            'Accept': 'application/vnd.github.v3+json'
+                        }
+                    });
+
+                    if (response.ok) {
+                        const data = await response.json();
+                        const starCount = data.stargazers_count;
+
+                        // Find all badges for this repository
+                        const badges = document.querySelectorAll(`.github-star-badge[href*="${repo}"]`);
+                        badges.forEach(badge => {
+                            const countElement = badge.querySelector('.star-count');
+                            if (countElement) {
+                                countElement.textContent = starCount.toLocaleString();
+                            }
+                        });
+                    }
+                } catch (error) {
+                    console.log(`Failed to fetch stars for ${repo}:`, error);
+                    // Keep showing '-' if fetch fails
+                }
+            }
+        }
+
+        // Fetch GitHub stars on page load
+        fetchGitHubStars();
     </script>
 </body>
 </html>
